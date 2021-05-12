@@ -85,7 +85,7 @@ Other arguments supports in profiles include:
 
 * `overrideName`: A boolean indicating whether or not to replace the dynamic terminal title which detects what program is running with the static profile name.
 * `env`: A map defining environment variables and their values, set the variable to `null` to delete it from the environment.
-* `icon`: An icon ID to use for the profile.
+* `icon`: An [codicon](https://microsoft.github.io/vscode-codicons/dist/codicon.html) ID to use for the profile.
 
 >**Tip:** The integrated terminal shell is running with the permissions of VS Code. If you need to run a shell command with elevated (administrator) or different permissions, you can use platform utilities such as `runas.exe` within a terminal.
 
